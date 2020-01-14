@@ -32,7 +32,7 @@ void LedSequence(int led) {
   }
 }
 
-//Nikon D40 sequence
+//Nikon D40 sequence (source: https://www.christidis.info/index.php/personal-projects/arduino-nikon-infrared-command-code)
 void takePhoto(int led) {
   int i;
   for (i = 0; i < 76; i++) {
